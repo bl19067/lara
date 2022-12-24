@@ -20,5 +20,6 @@ Route::get('/', function () {
 
 Route::get('/sample',[\App\Http\Controllers\Sample\IndexController::class, 'show']);
 Route::get('/sample/{id}',[\App\Http\Controllers\Sample\IndexController::class, 'showId']);
+Route::get('/blog/',[\App\Http\Controllers\Sample\IndexController::class, 'show']);
 
 
